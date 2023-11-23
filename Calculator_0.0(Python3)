@@ -3,7 +3,7 @@ from tkinter import *;
 root = Tk();
 entry = Entry(root, width = 35, borderwidth= 5);
 entry.grid(row = 0, column = 0, columnspan = 3, padx = 10, pady = 10);
-root.title("Calculator_0.0");
+root.title("Calculator_0.1");
 #defining functions
 def button_click(number):
     current = entry.get();
